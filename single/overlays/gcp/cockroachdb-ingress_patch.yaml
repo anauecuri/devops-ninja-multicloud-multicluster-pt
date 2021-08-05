@@ -1,6 +1,6 @@
 spec:
   rules:
-    - host: cockroachdb.multicloud.ml
+    - host: cockroachdb.anauecuri-prod2.ml
       http:
         paths:
           - backend:

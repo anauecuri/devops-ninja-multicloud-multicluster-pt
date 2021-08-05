@@ -1,6 +1,6 @@
 spec:
   rules:
-    - host: cockroachdb.devops-ninja.ml
+    - host: cockroachdb.anauecuri-prod1.ml
       http:
         paths:
           - backend:

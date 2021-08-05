@@ -1,6 +1,6 @@
 spec:
   rules:
-    - host: app.multicloud.ml
+    - host: app.anauecuri-prod2.ml
       http:
         paths:
           - backend:

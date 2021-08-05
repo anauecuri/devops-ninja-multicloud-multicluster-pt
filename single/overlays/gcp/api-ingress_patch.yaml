@@ -1,6 +1,6 @@
 spec:
   rules:
-    - host: api.multicloud.ml
+    - host: api.anauecuri-prod2.ml
       http:
         paths:
           - path: /book

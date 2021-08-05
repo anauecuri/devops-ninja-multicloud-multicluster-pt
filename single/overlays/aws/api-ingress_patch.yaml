@@ -1,6 +1,6 @@
 spec:
   rules:
-    - host: api.devops-ninja.ml
+    - host: api.anauecuri-prod1.ml
       http:
         paths:
           - path: /book

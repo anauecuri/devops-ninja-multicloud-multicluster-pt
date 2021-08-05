@@ -97,12 +97,12 @@ Email Address []:webmaster@example.com
 
 # multi-cloud-2
 
-# $ gcloud compute ssl-certificates create multicloud \
+# $ gcloud compute ssl-certificates create anauecuri-prod2 \
 #         --certificate=certificate-file \
 #         --private-key=private-key-file \
 #         --global
     
-#  nome do certificado que subi - devops-ninja
+#  nome do certificado que subi anauecuri-prod2
 ```
 
 
@@ -122,7 +122,7 @@ $ gcloud compute addresses describe lb-ipv4-1 \
     --format="get(address)" \
     --global
 
-#  34.96.99.180
+#  34.120.32.224
 
 # SETUP
 
@@ -154,7 +154,7 @@ $  gcloud compute url-maps create web-map-https \
 
 # Criar um http proxy para fazer o  roteamento
 $ gcloud compute target-https-proxies create https-lb-proxy \
-    --url-map web-map-https --ssl-certificates multicloud
+    --url-map web-map-https --ssl-certificates anauecuri-prod2
     
 # Criar regra global de forwarding 
 $ gcloud compute forwarding-rules create https-content-rule \

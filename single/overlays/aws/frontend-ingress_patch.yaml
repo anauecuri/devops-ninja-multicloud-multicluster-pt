@@ -1,6 +1,6 @@
 spec:
   rules:
-    - host: app.devops-ninja.ml
+    - host: app.anauecuri-prod1.ml
       http:
         paths:
           - backend:
